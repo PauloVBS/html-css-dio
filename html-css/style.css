@@ -1,0 +1,48 @@
+#contador{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 70px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#lista{
+    padding: 0px;
+}
+div.contador{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+#tarefa{
+    height: 23px;
+}
+body{
+    text-align: center;
+}
+.elemento:checked{
+    text-decoration: line-through;
+    color: rgb(150, 150, 151);
+}
+ul{
+    text-align: center;
+}
+ul li{
+    list-style: none;
+    width:300px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.adicionarTarefas{
+    width: fit-content;
+    border:black 1px; 
+    background-color: gray;
+    padding: 6px;
+}
+ul li.checked {
+    background-color: rgb(136, 135, 135);
+    text-decoration: line-through;
+    color: rgb(255, 255, 255);
+}
